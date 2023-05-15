@@ -56,6 +56,7 @@ namespace GameCore.Player
             StopMoving();
             _moveDirection = point - _entity.movable.position;
             _moving = StartCoroutine(MovingToPoint(point, GetMoveTime(point)));
+            SetAnimationState(true);
         }
 
         public void RotateTo(Vector3 point)
@@ -162,6 +163,7 @@ namespace GameCore.Player
                 yield return null;
             }
             _entity.movable.position = point;
+            SetAnimationState(false);
         }
 
         private IEnumerator RotatingTo(Quaternion endRot, float time)
