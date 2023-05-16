@@ -1,21 +1,3 @@
-{
-    "name": "ToonyColorsPro.Runtime",
-    "references": [
-        "GUID:15fc0a57446b3144c949da3e2b9737a9"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [
-        {
-            "name": "com.unity.render-pipelines.universal",
-            "expression": "7.3.1",
-            "define": "TCP2_UNIVERSAL_RP"
-        }
-    ],
-    "noEngineReferences": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5669be94e6a846616a8cf101b171ac840b16b71963650f53dd688123806617af
+size 545

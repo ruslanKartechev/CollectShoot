@@ -1,25 +1,3 @@
-using System;
-using GameCore.Player;
-using UnityEngine;
-
-namespace CollectShooter.Collectables
-{
-    public interface IBackpackItem
-    {
-        void SetTeam(Team team);
-        void Collect(Transform parent, Vector3 localPosition, float scaleFactor, Action onEnd);
-        void FlyTo(ItemFlyArgs args);
-        float GetSize();
-        void Hide();
-    }
-
-    public class ItemFlyArgs
-    {
-        public Transform parent;
-        public Vector3 localPosition;
-        public Quaternion localRotation;
-        public float scaleFactor;
-        public float moveTime;
-        public Action onDone;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb47eeb2efd284af0ad1cafdcd21fff09ed141aff8c2ec702bae519c3cc3c358
+size 656

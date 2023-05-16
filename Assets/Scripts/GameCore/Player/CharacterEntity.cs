@@ -1,26 +1,3 @@
-using CollectShooter.Collectables;
-using CollectShooter.Player;
-using CollectShooter.Teams;
-using UnityEngine;
-
-namespace GameCore.Player
-{
-    public class CharacterEntity : MonoBehaviour
-    {
-        public Transform modelSpawn;
-        public Transform rotatable;
-        public Transform movable;
-        public CharacterMovementSettings movementSettings; 
-        public PlayerAnimator playerAnimator;
-
-        public Team Team;
-        // backpack
-        public Backpack backpack;
-        public BackpackSettings backpackSettings;
-        public BackpackDisplay backpackDisplay;
-        public Transform packParent;
-        public Transform packStartPosition;
-        //
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95509c1d1cf98a8322d172fb0249cc946181477710cd5f48be3b6e6d0afffa83
+size 797

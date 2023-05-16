@@ -1,14 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class TCP2_Demo_AutoRotate : MonoBehaviour
-{
-	public Vector3 axis = Vector3.up;
-	public float Speed = -50f;
-
-	void Update()
-	{
-		this.transform.Rotate(axis, Time.deltaTime * Speed);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:21fdb7888341e0dca2b30b0eda409d1498977ed651aee300eb02505ce3c0b877
+size 291

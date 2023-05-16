@@ -1,17 +1,3 @@
-{
-    "name": "ToonyColorsPro.Editor",
-    "references": [
-        "ToonyColorsPro.Runtime"
-    ],
-    "optionalUnityReferences": [],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4643ed6133f2503eee5770a5ce42ceb976c283bf1b8f603be17f64b952b7b130
+size 391

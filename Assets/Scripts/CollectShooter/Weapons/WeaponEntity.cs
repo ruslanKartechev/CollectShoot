@@ -1,21 +1,3 @@
-﻿using CollectShooter.Collectables;
-using GameCore.LittleTricks.Rotators;
-using UnityEngine;
-
-namespace CollectShooter.Weapons
-{
-    public class WeaponEntity : MonoBehaviour
-    {
-        public Wall wall;
-        public WeaponSettings settings;
-        public WeaponMagazine magazine;
-        public BackpackSettings backpackSettings;
-        public Transform packParent;  
-        public BackpackDisplay display;
-        public SimpleRotator rotator;
-        [Space(10)] 
-        public Collider triggerCollider;
-        public ParticleSystem particles;
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c799b726788677e1340ed01d0993cea7f927522fe79bd0a74a8266991fbd0bd
+size 676

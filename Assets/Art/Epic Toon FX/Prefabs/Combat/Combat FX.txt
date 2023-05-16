@@ -1,4 +1,3 @@
-In the Combat folder you will find effects that:
-
-- are used for guns, magic, melee and sword combat
-- are indications of injuring or killing enemies
+version https://git-lfs.github.com/spec/v1
+oid sha256:69a24b4f58eaa02c2178b10c21f92f75f6994472bc6211660746ad65100ad773
+size 152

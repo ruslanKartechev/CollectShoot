@@ -1,15 +1,3 @@
-{
-    "name": "ToonyColorsPro2.Demo",
-    "references": [
-        "ToonyColorsPro.Runtime"
-    ],
-    "optionalUnityReferences": [],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d0eb51ad6f8c6e58f91e4b3ecb3f1e4598ec481827e3e9fbfbc0eca1be89527
+size 368

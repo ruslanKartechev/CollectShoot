@@ -1,15 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-namespace ToonyColorsPro
-{
-	public class TCP2_Demo_Interactive_Content : MonoBehaviour
-	{
-		public Transform pivot;
-		public Transform textBox;
-		[Space]
-		[TextArea] public string Text = "This is the text inside the text box.";
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99c2044d74191fe22f5eb29f29e6644c8b0397416e089ff684325a6f7446b618
+size 352

@@ -1,30 +1,3 @@
-#if UNITY_EDITOR
-using GameCore.Editors;
-using UnityEditor;
-using UnityEngine;
-
-namespace CollectShooter.Collectables
-{
-    [CustomEditor(typeof(CollectablesManager))]
-    public class CollectablesManagerEditor : Editor
-    {
-        private CollectablesManager me;
-        public void OnEnable()
-        {
-            me = target as CollectablesManager;
-        }
-
-        public override void OnInspectorGUI()
-        {
-            base.OnInspectorGUI();
-            EditorUtils.LabelCenter("Spawning on grid");
-            EditorUtils.Button("+", "Spawn entire grid", Color.green, me.Generate, me);
-            EditorUtils.Button("-N", "Clear Nulls", Color.yellow, me.RemoveNulls, me);
-            EditorUtils.Button("-A", "Clear Grid", Color.red, me.Clear, me);
-            EditorUtils.Button("R", "RandomizeTeams", Color.cyan, me.RandomizeTeams, me);
-            
-            
-        }
-    }
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b4f8a25cc3c8c277c2bd6c7d63c12b690f9abb2ec35c082e5ef08fd36a8d4aa
+size 1141
