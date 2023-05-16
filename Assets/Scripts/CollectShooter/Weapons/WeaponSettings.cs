@@ -1,14 +1,3 @@
-﻿using UnityEngine;
-
-namespace CollectShooter.Weapons
-{
-    [CreateAssetMenu(menuName = "SO/" + nameof(WeaponSettings), fileName = nameof(WeaponSettings), order = 0)]
-    public class WeaponSettings : ScriptableObject
-    {
-        public float itemTakeTime;
-        public float firingDelay;
-        public float rotateToFaceTime;
-        public float scaleDownTime;
-        public Vector3 sideAngles;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f5c023f0526fde8f45786c833a2b98ffc23cc2d640225501f5de76889171b3d
+size 349
