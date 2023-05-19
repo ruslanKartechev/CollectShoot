@@ -1,2 +1,3 @@
-m_EditorVersion: 2021.3.20f1
-m_EditorVersionWithRevision: 2021.3.20f1 (577897200b8b)
+version https://git-lfs.github.com/spec/v1
+oid sha256:38b4899f1d4209af35b6fa10a3c0d32c0c85654769132807b9b2a6dec0b4811f
+size 85
