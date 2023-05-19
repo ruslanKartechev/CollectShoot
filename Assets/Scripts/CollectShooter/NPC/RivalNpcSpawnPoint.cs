@@ -1,21 +1,3 @@
-﻿using GameCore.LittleTricks;
-using UnityEngine;
-
-namespace CollectShooter.NPC
-{
-    public class RivalNpcSpawnPoint : EditorPoint
-    {
-        public RivalNpcEntity prefab;
-        
-        public RivalNpcEntity Spawn(Transform parent)
-        {
-            var instance = Instantiate(prefab, parent);
-            var tr = instance.transform;
-            tr.position = transform.position;
-            tr.rotation = transform.rotation;
-            instance.behaviour.Init(instance);
-            return instance;
-        }
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:07387448305d7ee5e215d8505d74846a18d169fce984e18dbdf0c8eebeee4eb8
+size 651
